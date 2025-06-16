@@ -1,78 +1,84 @@
  * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Nunito', sans-serif;
-    }
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: 'Nunito', sans-serif;
+ }
 
-    body {
-      background: #f5f5ff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
+ body {
+   background: #f5f5ff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+ }
 
-    .container {
-      background: #fff;
-      border-radius: 20px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-      padding: 40px;
-      width: 350px;
-      text-align: center;
-    }
+ .container {
+   background: #fff;
+   border-radius: 20px;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+   padding: 40px;
+   width: 350px;
+   text-align: center;
+ }
 
-    .logo {
-      width: 100px;
-      margin: 0 auto 10px;
-    }
+ .logo {
+   width: 100px;
+   margin: 0 auto 10px;
+ }
 
-    h1 {
-      font-size: 24px;
-      margin-bottom: 10px;
-      color: #333;
-    }
+ h1 {
+   font-size: 24px;
+   margin-bottom: 10px;
+   color: #333;
+ }
 
-    p {
-      margin-bottom: 30px;
-      color: #777;
-    }
+ p {
+   margin-bottom: 30px;
+   color: #777;
+ }
 
-    input {
-      width: 100%;
-      padding: 12px;
-      margin-bottom: 15px;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      font-size: 14px;
-    }
+ input {
+   width: 100%;
+   padding: 12px;
+   margin-bottom: 15px;
+   border: 1px solid #ddd;
+   border-radius: 10px;
+   font-size: 14px;
+ }
 
-    button {
-      width: 100%;
-      padding: 12px;
-      margin-top: 10px;
-      border: none;
-      border-radius: 10px;
-      font-size: 16px;
-      cursor: pointer;
-      font-weight: bold;
-    }
+ button {
+   width: 100%;
+   padding: 12px;
+   margin-top: 10px;
+   border: none;
+   border-radius: 10px;
+   font-size: 16px;
+   cursor: pointer;
+   font-weight: bold;
+ }
 
-    .signin-btn {
-      background-color: #7b61ff;
-      color: white;
-      margin-bottom: 15px;
-    }
+ .signin-btn {
+   background-color: #7b61ff;
+   color: white;
+   margin-bottom: 15px;
+ }
 
-    .google-btn {
-      background-color: #fff;
-      border: 1px solid #ddd;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-    }
+ .google-btn {
+   background-color: #fff;
+   border: 1px solid #ddd;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+ }
 
-    .google-btn img {
-      width: 20px;
-    }
+ .google-btn img {
+   width: 20px;
+ }
+
+ @media (max-width: 500px) {
+   .container {
+     width: 320px;
+   }
+ }

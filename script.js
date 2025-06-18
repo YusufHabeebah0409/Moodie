@@ -27,9 +27,9 @@ document.addEventListener('keydown', (e) => {
 
 // sign Up function 
 const signUp = () => {
-  const userName = signupUsername.value.trim()
-  const email = signupEmail.value.trim()
-  const password = signupPassword.value.trim()
+  const userName = document.getElementById("signupUsername").value.trim()
+  const email = document.getElementById("signupEmail").value.trim()
+  const password = document.getElementById("signupPassword") .value.trim()
 
   if (userName === "" || email === "" || password === "") {
 

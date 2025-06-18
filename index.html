@@ -18,10 +18,10 @@
         <img src="./edit.png" alt="Moodie Logo" class="logo" />
         <h1>Welcome to Moodie</h1>
         <p>Your daily mood buddy</p>
-        <input type="email" placeholder="Enter your Username" />
-        <input type="email" placeholder="Enter your email" />
-        <input type="password" placeholder="Enter your password" />
-        <button class="signin-btn">Sign Up</button>
+        <input type="email" placeholder="Enter your Username" required id="signupUsername" autofocus/>
+        <input type="email" placeholder="Enter your email" required id="signupEmail" />
+        <input type="password" placeholder="Enter your password" required id="signupPassword" />
+        <button class="signin-btn" onclick="signUp()">Sign Up</button>
         <button class="google-btn">
             <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google Logo" />
             Sign Up with Google

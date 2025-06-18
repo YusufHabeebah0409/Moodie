@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <!-- CSS Link  -->
     <link rel="stylesheet" href="style.css">
+    <!-- Toastify Links  -->
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <!-- Favicon Links  -->
     <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
 </head>
@@ -21,7 +23,7 @@
         <input type="email" placeholder="Enter your Username" required id="signupUsername" autofocus/>
         <input type="email" placeholder="Enter your email" required id="signupEmail" />
         <input type="password" placeholder="Enter your password" required id="signupPassword" />
-        <button class="signin-btn" onclick="signUp()">Sign Up</button>
+        <button class="signin-btn" onclick="signUp()">Create an account</button>
         <button class="google-btn">
             <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google Logo" />
             Sign Up with Google
@@ -29,5 +31,8 @@
         <small>Already have an account <a href="./signIn.html">Sign In</a></small>
     </div>
 </body>
+<!-- Toastify js  -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<!-- JavaScript  -->
 <script type="module" src="./script.js"></script>
 </html>
